@@ -74,7 +74,6 @@ public class CarValuationPage {
 	
 	public String getCarValuationDetails() {
 		String actCarDetails = getCarNumber()+","+getCarManufacturer()+","+getCarModel()+","+getCarManufacturedYear();
-		System.out.print(actCarDetails);
 		return actCarDetails;
 	}
 
